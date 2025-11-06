@@ -1,0 +1,37 @@
+.row-menu-btn {
+	position: relative;
+	
+}
+li.row-menu-btn:hover {
+	transform: none;
+}
+.row-menu-btn > ul {
+	display: none;
+	position: absolute;
+	list-style: none;
+	padding: 16px;
+	background-color: var(--content-background-lp);
+	border: 1px solid var(--text-color-a-01);
+	top: 100%;
+	right: 0;
+	max-height: 100vh;
+}
+
+.row-menu-btn li {
+	padding: 8px 0 ;
+}
+.row-menu-btn > a {
+	transition: none !important;
+}
+
+.lp-row-menu__not-overflow {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.lp-row-menu__block-index {
+	z-index: 2;
+}
+.lp-row-menu__block-index:hover {
+	z-index: 3;
+}

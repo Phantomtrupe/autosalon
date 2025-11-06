@@ -1,0 +1,87 @@
+.lp-steps-3 {
+  padding: 48px 0 32px; }
+  .lp-steps-3 * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+            
+    .lp-steps-3-items__item-text-wrap {flex: 1 0 1%;}
+  @media all and (min-width: 600px) {
+    .lp-steps-3 {
+      padding: 64px 0 48px; } }
+  @media all and (min-width: 1200px) {
+    .lp-steps-3 {
+      padding: 80px 0 64px; } }
+  .lp-steps-3-title {
+    margin: 0 0 32px;
+    text-align: center; }
+    @media all and (min-width: 960px) {
+      .lp-steps-3-title {
+      	max-width: 912px;
+      	margin: 0 auto 48px;} }
+  @media all and (min-width: 600px) {
+    .lp-steps-3-items {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
+  @media all and (min-width: 960px) {
+    .lp-steps-3-items {
+      width: 592px;
+      margin: 0 auto; } }
+  @media all and (min-width: 1200px) {
+    .lp-steps-3-items {
+      width: 760px; } }
+  @media all and (min-width: 1380px) {
+    .lp-steps-3-items {
+      width: 848px; } }
+  .lp-steps-3-items__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 24px; }
+    @media all and (min-width: 600px) {
+      .lp-steps-3-items__item {
+        margin-bottom: 32px; } }
+    .lp-steps-3-items__item-icon {
+    	align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: content-box;
+      min-height: 24px;
+      min-width: 24px;
+      border-radius: 50%;
+      padding: 8px;
+      text-align: center;
+      background-color: var(--primary-color-a-01);
+      margin: 0 16px 0 0; }
+      @media all and (min-width: 600px) {
+        .lp-steps-3-items__item-icon {
+          min-width: 48px;
+          min-height: 48px;
+          margin-right: 24px; } }
+      @media all and (min-width: 1200px) {
+        .lp-steps-3-items__item-icon {
+          margin-right: 32px; } }
+    .lp-steps-3-items__item-title {
+      margin: 0; }
+    .lp-steps-3-items__item-text {
+      padding-top: 0; }
+  .lp-steps-3-buttons {
+    padding-top: 8px;
+    margin-bottom: -8px;
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .lp-steps-3-buttons {
+        margin: 0 -4px -8px;
+        padding-top: 16px; } }
+  .lp-steps-3-button {
+    width: 100%;
+    margin-bottom: 16px; }
+    @media all and (min-width: 600px) {
+      .lp-steps-3-button {
+        width: auto;
+        margin: 0 8px 16px; } }

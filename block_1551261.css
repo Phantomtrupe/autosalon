@@ -1,0 +1,141 @@
+.lp-form-4 {
+	padding: 48px 0 0;
+}
+
+.lp-form-4._is-cms {
+	padding: 48px 0;
+	display: flex;
+    justify-content: center;
+}
+
+.lp-form-4__inner {
+	margin: 0 auto;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.lp-form-4__form-wrappper {
+	padding: 32px 16px 16px;
+	background: #fff;
+}
+
+.lp-form-4__close {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -40px;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+}
+
+.lp-form-4__close ._close-line {
+	width: 2px;
+	height: 20px;
+	background: #fff;
+	position: absolute;
+	left: 15px;
+	top: 6px;
+	display: block;
+}
+
+.lp-form-4__close ._close-line:first-child {transform: rotate(45deg)}
+.lp-form-4__close ._close-line:last-child {transform: rotate(-45deg)}
+
+.lp-form-4__close path {fill: #fff;}
+
+.lp-form-4__title-wrapper {
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+.lp-form-4__title, .lp-form-4__subtitle {
+	margin: 0;
+	padding: 0;
+}
+
+.lp-form-4__title + .lp-form-4__subtitle {
+	padding-top: 8px;
+}
+
+.lp-form-4 .lp-form-tpl__button-wrapper {
+	text-align: center;
+}
+
+.lp-form-4 .lp-form-tpl__button {
+	width: 100%;
+}
+
+.lp-form-4 .lp-form-tpl__button .lp-button__text {
+	min-width: 178px;
+}
+
+.lp-form-4__image {
+	height: 160px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.lp-form-4__image img {
+	width: 100% !important;
+	height: 100% !important;
+	min-height: 0 !important;
+	min-width: 0 !important;
+	object-fit: cover;
+}
+
+@media all and (min-width: 600px) {
+	.lp-form-4__inner {
+		width: 376px;
+	}
+	
+	.lp-form-4__form-wrappper {
+		padding: 32px;
+	}
+	
+	.lp-form-4__title-wrapper {
+		padding-bottom: 32px;
+	}
+	
+	.lp-form-4__image {
+		height: 188px;
+	}
+}
+
+@media all and (min-width: 960px) {
+	.lp-form-4__inner {
+		width: 592px;
+	}
+	
+	.lp-form-4__image {
+		height: 296px;
+	}
+	
+	.lp-form-4 .lp-form-tpl__button {
+		width: auto;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	.lp-form-4__inner {
+		width: 564px;
+	}
+	
+	.lp-form-4__image {
+		height: 282px;
+	}
+}
+
+@media all and (min-width: 1380px) {
+	.lp-form-4__inner {
+		width: 628px;
+	}
+	
+	.lp-form-4__image {
+		height: 314px;
+	}
+}
+
+.lp-form-4 .lp-form-tpl .lp-form-tpl__success-text {
+	color: #888888;
+}
